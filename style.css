@@ -2,7 +2,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 /* header area style */
 .header-area{
@@ -50,6 +49,11 @@ body{
     color: rgb(88, 78, 78);
     text-transform: capitalize;
 }
+.heading-area p{
+    font-size: 18px;
+    color: dimgrey;
+    font-weight: 500;
+}
 .heading-area{
     width: 45%;
 }
@@ -68,20 +72,26 @@ body{
 .back-photo{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    padding-top: 100px;
+    padding: 70px 0;
     margin-top: 30px;
+    position: relative;
 
 }
 .about-us{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
 }
 .photo-area2 img{
-    width: 250px;
+    width: 270px;
     position: absolute;
     bottom: 0;
+}
+.about-us p{
+    font-size: 18px;
+    color: dimgrey;
+    font-weight: 500;
+
 }
 .contuct h1{
     font-size: 50px;
@@ -107,16 +117,22 @@ body{
 .deatiels p{
     color: dimgrey;
     font-weight: 500;
+    font-size: 18px;
 }
     /* .photo-album style */
 .photo-album{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    flex-wrap: wrap;
+}
+.photo-album p{
+    font-size: 18px;
+    color: dimgrey;
+    font-weight: 500;
 }
 .item {
     width: 270px;
-    position: relative;
     border: 20px solid #fff;
     box-shadow: 1px 1px 15px 1px rgb(168, 164, 164);
     border-radius: 25px;
@@ -173,20 +189,20 @@ body{
 
 .amader-form{
     width:550px;
-	border-radius: 5px;
     margin-left: 30px;
 }
 
 .amader-form label{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-	display: block;
+    display: block;
 }
 .amader-form input{
     width: 100%;
-	font-size: 18px;
-	padding: 3px;
+	font-size: 16px;
+    display: block;
+	padding: 8px;
 	color: rgb(27, 14, 14);
 	border-radius: 5px;
 }
