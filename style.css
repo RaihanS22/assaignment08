@@ -1,0 +1,223 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+/* header area style */
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: 2px solid rgb(245, 99, 41);
+
+}
+.header-area img{
+    width: 250px;
+    margin-left: 60px;
+}
+.menu-area ul{
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+}
+.menu-area ul li{
+    margin-right: 20px;
+}
+.menu-area ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(245, 99, 41);
+    font-size: 20px;
+    font-weight: bold;
+}
+/* main area style */
+.the-diet{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.the-diet .photo-area img{
+    width: 470px;
+    margin-right: 60px;
+}
+.main-area span{
+    color: rgb(245, 99, 41);
+}
+.heading-area h1{
+    font-size: 55px;
+    color: rgb(88, 78, 78);
+    text-transform: capitalize;
+}
+.heading-area{
+    width: 45%;
+}
+.heading-area a{
+    text-transform: capitalize;
+    text-decoration: none;
+    background-image: linear-gradient(to left, rgb(248, 73, 4), rgb(223, 149, 89));
+    padding: 15px 25px;
+    border-radius: 28px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+/* about us style */
+.back-photo{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 30px;
+
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.photo-area2 img{
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+}
+.contuct h1{
+    font-size: 50px;
+    color: rgb(90, 86, 86);
+}
+.contuct a{
+    text-decoration: none;
+    background-image: linear-gradient(to left, rgb(248, 73, 4), rgb(223, 149, 89));
+    padding: 15px 25px;
+    border-radius: 28px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* details style */
+.deatiels{
+    text-align: center;
+}
+.deatiels h1{
+    font-size: 45px;
+    color: dimgrey;
+}
+.deatiels p{
+    color: dimgrey;
+    font-weight: 500;
+}
+    /* .photo-album style */
+.photo-album{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.item {
+    width: 270px;
+    position: relative;
+    border: 20px solid #fff;
+    box-shadow: 1px 1px 15px 1px rgb(168, 164, 164);
+    border-radius: 25px;
+}
+.image img {
+    height: 205px;
+    object-fit: cover;
+}
+/* bike-cities style */
+.bike-cities{
+    width: 100%;
+
+}
+.itias{
+    display: flex;
+    justify-content: space-evenly;
+    height: 170px;
+    align-items: center;
+    margin: 60px auto;
+    width: 80%;
+    box-shadow: 1px 1px 15px 1px rgb(168, 164, 164);
+    border-radius: 25px;
+}
+.resturent-area h5{
+    color: dimgrey;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* contact-us style */
+
+.contact{
+    text-align: center;
+}
+.contact h1{
+    color: dimgrey;
+    font-size: 45px;
+}
+.contact p{
+    color: dimgrey;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* login-container style */
+.form-making{
+    width: 100%;
+    align-items: center;
+}
+.log-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+.amader-form{
+    width:550px;
+	border-radius: 5px;
+    margin-left: 30px;
+}
+
+.amader-form label{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+	display: block;
+}
+.amader-form input{
+    width: 100%;
+	font-size: 18px;
+	padding: 3px;
+	color: rgb(27, 14, 14);
+	border-radius: 5px;
+}
+.amader-form textarea{
+    width: 100%;
+	font-size: 18px;
+	padding: 3px;
+	color: rgb(27, 14, 14);
+	border-radius: 5px;
+}
+.amader-form a{
+    text-decoration: none;
+    background-image: linear-gradient(to left, rgb(248, 73, 4), rgb(223, 149, 89));
+    padding: 13px 40px;
+    border-radius: 28px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+}
+.footer-section{
+    text-align: center;
+    background-color: rgb(9, 11, 24);
+    padding: 50px 0;
+    margin-top: 40px;
+}
+.footer-section h2{
+    color: dimgrey;
+}
+.footer-section span{
+    color: rgb(230, 114, 36);
+}
+.footer-section p, a{
+    color: #fff;
+}
