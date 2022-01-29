@@ -1,7 +1,7 @@
 @media (max-width: 1006px) {
     .back-photo{
         background-color: lemonchiffon;
-        height: 700px;
+        height: 800px;
     }
     .about-us{
         display: grid;
@@ -12,12 +12,6 @@
     }
     .log-container{
         display: grid;
-    }
-    .maps{
-
-    }
-    .amader-form{
-
     }
 }
 @media (max-width: 993px) {
@@ -38,21 +32,61 @@
     
 }
 @media (max-width: 946px) {
-    }
+    
     .heading-area{
         background-color: cyan;
         padding: 10px;
         text-align: center;
+        margin: auto;
     }
     .heading-area h1{
         font-size: 55px;
     }
     .photo-area img{
         width: 500px;
-        margin-right: 0px;
     }
     .the-diet{
         display: grid;
     }
 }
+@media (max-width: 645px) {
 
+    .log-container iframe{
+        width: 300px;
+        height: 280px;
+    }
+    .amader-form{
+        width:300px;
+        margin-left: 10px;
+    }
+    .footer-section{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(45, 205, 253);
+        margin-top: 40px;
+    }
+    
+}
+@media (max-width:486px) {
+    .photo-area img{
+        width: 200px;
+    }
+}
+@media (max-width: 401px) {
+    .itias{
+        display: grid;
+        height: 400px;
+    }
+    .header-area{
+        height: 200px;
+    }
+    .log-container iframe{
+        width: 150px;
+        height: 130px;
+    }
+    .amader-form{
+        width:150px;
+        margin-left: 10px;
+    }
+
+}
